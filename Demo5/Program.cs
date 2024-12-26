@@ -2,6 +2,37 @@
 
 namespace Demo5
 {
+
+
+    //enum Season
+    //{
+    //    winter ,
+    //    Spring ,
+    //    summer ,
+    //    automn 
+    //}
+
+    //enum WeakDay
+    //{
+    //    saturday,
+    //    sunday ,
+    //    monday ,
+    //    tuesday ,
+    //    wednesday ,
+    //    thursday ,
+    //    friday 
+    //}
+
+    //enum Gender
+    //{
+    //    m  =1,
+    //    f =2,
+    //    male= 1 ,
+    //    female =2
+    //}
+
+
+
     internal class Program
     {
 
@@ -214,7 +245,6 @@ namespace Demo5
 
             #endregion
 
-
             #region  Exeption Handling And Protective Code
             // Exeption Handling And Protective Code 
 
@@ -224,11 +254,31 @@ namespace Demo5
             //Console.WriteLine("Hello After Exeption  "); 
             #endregion
 
+            #region Enum EX1
+
+            // Enum : Value Type
+            // STACK 
+
+            //Season S1 =  Season.automn;
+            //S1 = Season.summer;
+            //Console.WriteLine(S1);
+
+            // STAK 
+            //  CLR represent  Enum  as Integer  Value in memory  
+
+            //Gender G1 = (Gender) 10;
+
+
+            //Console.WriteLine(G1);
 
 
 
-
-
+            //  Gender G1 = (Gender) Enum.Parse(typeof(Gender), Console.ReadLine() ,true);
+            //Gender G1;
+            //Enum.TryParse(typeof(Gender), Console.ReadLine(), true, out object o1);
+            //G1 = (Gender) o1;
+            //Console.WriteLine(G1);
+            #endregion
 
 
         }
