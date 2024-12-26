@@ -1,8 +1,64 @@
-﻿namespace Demo5
+﻿using System.Linq.Expressions;
+
+namespace Demo5
 {
     internal class Program
     {
-        static void Main(string[] args)
+
+        //static void DoSomeCode()
+        //{
+        //    int X, Y, Z;
+        //    X = int.Parse(Console.ReadLine());
+        //    Y = int.Parse(Console.ReadLine());
+
+        //    Z = X / Y;
+
+        //    int[] Arr = { 1, 2, 3, };
+
+        //    Arr[99] = 10;
+        //}
+        //   static void DoSomeCode()
+        //static void DoSomeProtectiveCode()
+        //{
+        //    try
+        //    {
+        //        int X, Y, Z;
+        //        bool Flag;
+
+        //        do {
+        //            Console.WriteLine(" Enter First Number");
+        //            Flag = int.TryParse(Console.ReadLine(), out X);
+
+
+        //        }
+        //        while (Flag == false);
+        //        do
+        //        {
+        //            Console.WriteLine(" Enter Socend Number");
+        //            Flag = int.TryParse(Console.ReadLine(), out Y);
+
+
+        //        }
+        //        while (Flag == false && Y == 0);
+
+
+        //        Z = X / Y;
+        //        Console.WriteLine(Z);
+        //        int[] Arr = { 1, 2, 3, };
+
+        //        if (  99 < Arr?.Length)
+        //        {
+        //            Arr[99] = 10;
+        //        } 
+                
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        Console.WriteLine(e);
+        //    }
+            
+        //}
+            static void Main(string[] args)
         {
 
             #region Boxing And UnBoxing
@@ -159,7 +215,14 @@
             #endregion
 
 
+            #region  Exeption Handling And Protective Code
+            // Exeption Handling And Protective Code 
 
+            //   DoSomeCode();
+            //DoSomeProtectiveCode();
+
+            //Console.WriteLine("Hello After Exeption  "); 
+            #endregion
 
 
 
