@@ -132,6 +132,33 @@
 
             #endregion
 
+            #region Null Propagation operator
+            // Null Propagation operator ?
+
+            //double X = default; // 0
+            //bool C = default;
+
+
+            //Console.WriteLine(C);
+
+            // int[] Arr = default;// null
+            // int[] Arr = { 1, 2 };
+
+            // Best Practise
+            //if (Arr is not null )
+            //{
+
+            //for (int i = 0;  i < args.Length; i++)
+            //    Console.WriteLine(Arr[i]);
+
+            //}
+
+            //for (int i = 0; i < Arr?.Length; i++)
+            //   Console.WriteLine(Arr[i]);
+
+            #endregion
+
+
 
 
 
