@@ -49,7 +49,6 @@
 
             #endregion
 
-
             #region Nullable Value Type
             // Nullable Types 
             // Value Type
@@ -122,7 +121,16 @@
 
             #endregion
 
+            #region NullAble Reference Type
+            // NullAble Reference Type [C# 10.0  .NET 6.0]
 
+            //string Message = null;  // Required
+            //string? Message1 = null; // NUllable
+
+            //Console.WriteLine(Message.Length);
+            //Console.WriteLine(Message1);
+
+            #endregion
 
 
 
