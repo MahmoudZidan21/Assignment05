@@ -32,6 +32,15 @@ namespace Demo5
     //}
 
 
+    //enum Permisions
+    //{
+    //    Read =8,
+    //    Write=4,
+    //    Excute=2,
+    //    Delete =1
+
+    //}
+
 
     internal class Program
     {
@@ -81,15 +90,15 @@ namespace Demo5
         //        {
         //            Arr[99] = 10;
         //        } 
-                
+
         //    }
         //    catch (Exception e)
         //    {
         //        Console.WriteLine(e);
         //    }
-            
+
         //}
-            static void Main(string[] args)
+        static void Main(string[] args)
         {
 
             #region Boxing And UnBoxing
@@ -278,6 +287,33 @@ namespace Demo5
             //Enum.TryParse(typeof(Gender), Console.ReadLine(), true, out object o1);
             //G1 = (Gender) o1;
             //Console.WriteLine(G1);
+            #endregion
+
+
+            #region Advanced Enum
+            //Permisions Per01 = Permisions.Read;
+
+            ////Per01 ^= Permisions.Delete; // Toggle 
+            ////Console.WriteLine(Per01);
+
+            ////// Per01 |= Permisions.Delete;// Add Permision 
+            ////Per01 ^= Permisions.Delete; // Toggle 
+
+
+            //Per01 = ~(Permisions.Delete);// not bitwise
+            //// ~ -> Check permision
+
+            //if ((Per01 & Permisions.Delete) == Permisions.Delete) 
+            //{
+            //    Console.WriteLine("Exists");
+
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine("not Exists");
+            //}
+            //Console.WriteLine(Per01);  
             #endregion
 
 
