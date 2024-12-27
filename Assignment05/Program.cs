@@ -25,6 +25,16 @@ namespace Assignment05
         Winter
 
     }
+
+    [Flags]
+    enum Permisions
+    {
+        Read = 8,
+        Write = 4,
+        Excute = 2,
+        Delete = 1
+
+    }
     internal class Program
     {
         static void Main(string[] args)
@@ -89,8 +99,18 @@ namespace Assignment05
 
             #endregion
 
+            #region Q4  unsolved:Assign the following Permissions (Read, write, Delete, Execute) in a form of Enum. Create Variable from previous Enum to Add and Remove Permission from variable, check if specific Permission is existed inside variable
+
+            // Assign the following Permissions (Read, write, Delete, Execute) in a form of Enum.
+            // Create Variable from previous Enum to Add and Remove Permission from variable, check if specific Permission is existed inside variable
 
 
+
+
+            //Permisions Per = Permisions.Write;
+            //Per ^= Permisions.Delete;
+            //Console.WriteLine(Per); 
+            #endregion
 
 
 
